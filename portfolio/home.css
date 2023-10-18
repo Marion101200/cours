@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+}
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* div {
+    border: black solid;
+} */
+ul , li , a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+.titleheader{
+    color: black;
+    text-align: center;
+    font-size: 100px;
+}
+h2 , h3 , h4 {
+    text-align: center;
+    color: violet;
+    font-size: 100px;
+}
+.presentation{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 2em;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+}
+.reseaux{
+    display: flex;
+    justify-content: space-between;
+}
+.animaux{
+    min-width: 300px;
+    min-height: 300px;
+background-image: url('IMG/animaux.webp');
+background-size: cover;
+}
+.voyage{
+    min-width: 300px;
+    min-height: 300px;
+    background-image: url('IMG/voyage.webp');
+    background-size: cover;
+}
+.jeux{
+    min-width: 600px;
+    min-height: 300px;
+    background-image: url('IMG/nous.jpg');
+    background-size: cover;
+}
+
+.siteanimaux:hover{
+    opacity: 0.7;
+}
+
+.sitevoyage:hover{
+    opacity: 0.8;
+}
+.sitejeux , .sitevoyage , .siteanimaux {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.sitejeux:hover{
+    opacity: 0.9;
+}
+form{
+    text-align: center;
+}
+.facebook{
+    height: 100px;
+    width: 100px;
+    background-image: url('IMG/facebook2.png');
+    background-size: cover;
+}
+.logo{
+    height: 200px;
+    width: 350px;
+    background-image: url('IMG/LOGOPORTFOLIO.webp');
+    background-size: cover;
+}
+.instagram{
+    height: 100px;
+    width: 100px;
+    background-image: url('IMG/instagram.png');
+    background-repeat: no-repeat;
+}
+.twitter{
+    height: 100px;
+    width: 100px;
+    background-image: url('IMG/twitter.png');
+    background-repeat: no-repeat;
+}
+footer{
+    max-width: 1200px;
+    margin: auto;
+}
+.lefticon{
+    display: flex;
+    justify-content: left;
+}
+.righticon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+hr{
+    max-width: 1200px;
+    margin: auto;
+}
+.buttonicon{
+    border-color: red  ;
+    color: black;
+    font-size: 30px;
+}
+.contacticon1{
+    font-size: 20px;
+}
+.comment1{
+    font-size: 20px;
+}
+table , th , td{
+    border: black solid;
+    text-align: center;
+    font-size: 30px;
+}
+caption{
+    color: violet;
+    font-size: 100px;
+}
+#competences{
+    display: flex;
+    justify-content: center;
+}
