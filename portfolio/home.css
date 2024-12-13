@@ -26,13 +26,13 @@ ul , li , a {
 h2 {
     text-align: center;
     color: violet;
-    font-size: 100px;
+    font-size: 93px;
 }
 .presentation{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    font-size: 2em;
+    font-size: 40px;
 }
 .portfolio{
     display: flex;
@@ -186,3 +186,26 @@ font-size: 30px;
     width:100%;
     position:absolute;
    }
+   .experiences{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 3em;
+   }
+.diff{
+    color: green;
+    font-size: 40px;
+    text-decoration: underline ;
+}
+.diff_avantages img{
+    height: 1000px;
+    width: 1300px;
+}
+
+.details{
+    font-size: 40px;
+}
+.stage img{ 
+    height: 300px;
+    width: 400px;
+}
